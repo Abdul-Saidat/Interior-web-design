@@ -1,0 +1,28 @@
+.content {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.container {
+    background-image: url(./assets/images/sofa-living-room-decorated-with-brazilian-folklore-design\ 1.png);
+    background-size: 600px 600px;
+    height: 600px;
+    width: inherit;
+}
+
+@media (min-width: 768px) {
+    .content {
+    width: 1250px;
+}
+    .container {
+        background-size: 1250px 1000px;
+        width: inherit;
+        height: 1000px;
+    /* width: inherit;
+    height: 900px; */
+}
+}
+
+@media (min-width: 1200px) {
+    
+}
