@@ -21,6 +21,7 @@
 
 .logo {
     width: 100px;
+    margin-top: 10px;
 }
 
 li {
@@ -53,6 +54,10 @@ li {
     text-align: center;
 }
 
+.mobile-navs li {
+    padding-block: 5px;
+}
+
 
 .menu-toggle:checked ~ .overlay-menu {
     display: flex;
@@ -62,10 +67,10 @@ li {
 
 .close-btn {
     position: absolute;
-    top: 0;
+    top: 20px;
     right: 30px;
     color: white;
-    font-size: 30px
+    font-size: 40px
 }
 
 .header {
@@ -108,21 +113,20 @@ input {
 }
 
 .call-logo {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
 }
 
 button {
-    padding-inline: 15px;
+    margin-top: 18px;
+    padding-inline: 10px;
     padding-block: 10px;
-    height: 50px;
+    height: 45px;
     color: #fff;
-    font-size: 20px;
-    /* padding-inline: 20px;
-    padding-block: 12px; */
+    font-size: 18px;
     border: 1px solid #8E623A;
     background-color: #8E623A;
-    border-radius: 30px;
+    border-radius: 13px;
     display: flex;
     gap: 10px;
 }
@@ -203,11 +207,11 @@ input {
 button {
     color: #fff;
     font-size: 20px;
-    padding-inline: 20px;
+    padding-inline: 13px;
     padding-block: 12px;
     border: 1px solid #8E623A;
     background-color: #8E623A;
-    border-radius: 30px;
+    border-radius: 12px;
     display: flex;
     gap: 10px;
 }
