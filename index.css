@@ -160,8 +160,7 @@ button {
 }
 
 .container2 {
-  max-width: 1250px;
-  width: 100%;
+  width: inherit;
   padding-block: 60px;
   background-color: aqua;
   background-color: #f9cfac;
@@ -171,7 +170,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  width: 95%;
+  width: 80%;
   margin: 0 auto;
   background-color: linear-gradient(180deg, #f9cfac 0%, #f9cfac 96.13%);
   /* background-color: aqua; */
@@ -190,16 +189,20 @@ button {
   padding-inline: 40px;
 }
 
+.style:hover {
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
 .style,
 .customization,
 .green {
   /* justify-content: center; */
   /* align-items: center; */
   padding-block: 15px;
-  width: 350px;
   /* height: 200px; */
   border: 2px solid #FFF;
   border-radius: 20px;
+  margin: 0 auto;
   color: #8e623a;
   text-align: center;
   background-color: #fee0cc;
